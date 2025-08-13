@@ -11,7 +11,7 @@ export async function commandMapForward(state: State) {
   }
 }
 
-export async function commandMapBackward(state: State) {
+export async function commandMapBack(state: State) {
   if (!state.prevLocationsURL) {
     throw new Error("you're on the first page");
   }
